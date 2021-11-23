@@ -1,0 +1,7 @@
+/**
+ * Mixins
+ */
+
+ @mixin font_size($size) {
+	font-size: ($size / 10) + rem;
+} // @mixin font_size

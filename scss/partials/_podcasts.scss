@@ -1,0 +1,21 @@
+/**
+ * Podcasts
+ */
+
+// Content defaults
+.container#content {
+	border-right: 1px solid $keyline;
+	border-bottom: 1px solid $keyline;
+	border-left: 1px solid $keyline;
+	margin-bottom: $grid-lg-padding;
+	padding-top: 0;
+	padding-bottom: $grid-lg-padding;
+	position: relative;
+	z-index: 1;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 24px;
+}

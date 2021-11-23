@@ -1,0 +1,14 @@
+/**
+ * Typography
+ */
+
+@import "fonts";
+
+h1,
+h2,
+h3,
+p,
+span {
+	font-family: 'firasans';
+	font-size: $base-font-size;
+}

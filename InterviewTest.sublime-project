@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "JavaScript",
+      "path": "js/src"
+    },
+    {
+      "name": "SCSS",
+      "path": "scss"
+    },
+    {
+      "name": "SCSS - Includes",
+      "path": "scss/includes"
+    },
+    {
+      "name": "SCSS - Partials",
+      "path": "scss/partials"
+    },
+    {
+      "name": "All",
+      "path": "."
+    }
+  ],
+  "build_systems": [
+    {
+      "name": "Grunt",
+      "working_dir": "${project_path}",
+      "path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin",
+      "cmd": ["grunt", "--no-color"]
+    }
+  ]
+}

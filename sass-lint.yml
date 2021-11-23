@@ -1,0 +1,44 @@
+#########################
+## Sass Lint File
+#########################
+# Linter Options
+options:
+  # Merge default rules and override
+  merge-default-rules: true
+# Rule Configuration, overrides
+rules:
+  # fix indent to use tabs instead of 2 spaces
+  indentation:
+    - 1
+    -
+      size: tab
+  # css comments are fine
+  no-css-comments: 0
+  # strings must not use single quotes
+  quotes: 0
+  # allow non-nested attributes e.g. input[type="text"]
+  force-attribute-nesting: 0
+  # remove naming rules, too many errors
+  mixin-name-format: 0
+  # leading zeros are fine, let the minifier remove them
+  leading-zero: 0
+  # use smacss ordering - https://smacss.com/book/formatting
+  property-sort-order:
+    - 1
+    -
+      order: smacss
+  # trailing whitespace is handled by another plugin
+  no-trailing-whitespace: 0
+  # 'qualifying elements' are sometimes needed
+  no-qualifying-elements: 0
+  # no need for extra element nesting
+  force-element-nesting: 0
+  # we do want styles always before nesting
+  declarations-before-nesting: 1
+  # it isn't always possible to change class names
+  class-name-format: 0
+  # dont be a depth nazi
+  nesting-depth:
+    - 1
+    -
+      max-depth: 4
