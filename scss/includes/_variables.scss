@@ -1,0 +1,44 @@
+/**
+ * Variables
+ */
+
+$base-font-size: 1.1rem;
+$base-spacing: 2rem;
+$base-border-radius: 0.33rem;
+
+$element-spacing: $base-spacing * 1.5;
+
+// colours
+
+$brand-color: #003E74; // dark blue 0.62.116
+$brand-dark: #002147; // darkest blue 0.33.71
+$brand-light: #6282a6; // pastel blue 98.130.166
+$brand-accent: #00ACD7; // light cyan blue 0.172.215
+$brand-accent-dark: #0388c0; // slate blue 3.136.192
+$brand-accent-light: #eef3f6; // lightest blue 238.243.246
+
+$base-dark: #161515; // dark grey
+$base-medium: #bdc2c8; // grey used on borders
+$base-light: #fff;
+
+// 2014 Imperial Web Pallate
+
+$teal: #0F8291; // dark teal (teal) 15.130.145
+$seaglass: #379F9F; // light teal (seaglass) 55.159.159
+$green: #02893B; // dark green (green) 2.137.59
+$lime: #66A40A; // light green (lime) 102.164.10
+$blue: #006EAF; // dark cyan (blue) 0.110.175
+$pool-blue: #00ACD7; // light cyan (pool blue) 0.172.215
+$plum: #321E6D; // dark purple (plum) 50.30.109
+$purple: #653098; // md purple (purple) 101.48.152
+$tangerine: #EC7300; // light orange (tangerine) 236.115.0
+$orange: #D24000; // dark orange (orange) 210.64.0
+$red: #DD2501; // light red (red) 221.37.1
+$brick: #A51900; // dark red (brick) 165.25.0
+$violet: #960078; // dark pink (violet) 150.0.120
+$pink: #C81E78; // light pink (pink) 200.30.120
+$keyline: #d5d8d9; // medium grey for content borders
+
+// Grid
+$grid-padding: 16px;
+$grid-lg-padding: 24px;

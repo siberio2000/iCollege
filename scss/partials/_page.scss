@@ -1,0 +1,86 @@
+/**
+ * Page
+ */
+
+body {
+  font-size: 1.5rem;
+  position: relative;
+  min-width: 320px;
+  min-height: 480px;
+  margin: 0 auto;
+  padding: 0 40px;
+  color: #161515;
+  font-family: firasans, Helvetica Neue, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#page {
+  clear: both;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px 0 0;
+  clear: both;
+}
+
+// NAVBAR
+
+.navbar {
+  background-color: #003e74 !important;
+}
+
+.dropdown-toggle {
+  color: #ffffff !important;
+}
+
+.brand {
+  width: 14rem !important;
+  height: 8rem !important;
+  padding: 30px 0;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    padding: 0;
+  }
+  .px-5 {
+    padding: 2rem !important;
+  }
+  .py-5 {
+    padding: 0 !important;
+  }
+}
+
+
+// HEADER
+
+.form-control {
+    margin-left: -13px;
+	border-radius: 0;
+}
+
+@media (max-width: 575.98px) {
+	.header .col-auto {
+		width: 100% !important;
+	}
+}
+
+
+// FOOTER
+
+.footer {
+  background-color: #002147 !important;
+  color: #fff !important;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006eaf;
+}

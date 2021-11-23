@@ -1,0 +1,33 @@
+/**
+ * Podcasts
+ */
+
+#features {
+	border-top: 1px solid #D5D8D9;
+} 
+
+#features a {
+	text-decoration: none;
+	color: #000000 !important;
+}
+
+#features .col { 
+	background-color: #ebeeee;
+	padding: 10px;
+}
+
+#features .card{
+	font-size: 15px;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.dropdown-toggle::after {
+	color: #00acd7;
+	position: relative;
+	top: 21px;
+	transform: rotate(-45deg);
+	float: right;
+  }
