@@ -29,7 +29,7 @@ body {
     background-color: $brand-color;
     .brand {
       width: 14rem !important;
-      height: 8rem !important;
+      height: 8rem;
       padding: 2rem 0;
     }
     .dropdown-menu {
@@ -71,13 +71,17 @@ body {
   body {
     padding: 0;
     .px-5 {
-      padding: 2rem !important;
+      padding: 1rem !important;
     }
     .py-5 {
       padding: 1rem !important;
     }
     .header .col-auto {
       width: 100% !important;
+    }
+    .brand {
+      height: 4rem !important;
+      padding: 0 !important;
     }
   }
 }
