@@ -11,12 +11,29 @@ body {
   p {
     margin-bottom: 0;
   }
+  .cookiealert {
+    background: $brand-accent-light;
+    color: $base-dark;
+    a {
+      color: $brand-color;
+      font-weight: bold;
+    }
+    .btn {
+      background-color: $brand-color;
+      border-color: $brand-color;
+      border-radius: 0;
+      color: $brand-accent-light;
+    }
+  }
   #navbar_top {
     background-color: $brand-color;
     .brand {
       width: 14rem !important;
       height: 8rem !important;
       padding: 2rem 0;
+    }
+    .dropdown-menu {
+      border-radius: 0;
     }
     .dropdown-toggle {
       color: $brand-accent-light !important;
@@ -29,6 +46,10 @@ body {
       transform: rotate(-45deg);
       float: right;
     }
+  }
+  .header a {
+    color: $brand-color;
+    font-weight: bold;
   }
   .form-control {
     border-radius: 0;
